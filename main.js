@@ -1,8 +1,9 @@
 const form = document.getElementById('numeros');
 
-form.addEventListener ('submit') , function(e){
+form.addEventListener ('submit' , function(e){
     e.preventDefault();
-}
+    verificar()
+})
 
 function verificar() {
     let numA = document.getElementById("numA");
